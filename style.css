@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header section start */
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(6, 87, 60);
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    padding: 20px 2px;
+}
+
+.header .icon .d{
+    color: white;
+}
+
+.header .icon h3{
+    color: tomato;
+    font-size: 40px;
+}
+
+.header .menu{
+    display: flex;
+    justify-content: space-around;
+}
+
+.header .menu li{
+    list-style: none;
+    margin-right: 70px;
+}
+
+.header .menu li a:hover{
+    color: tomato;
+}
+
+.header .menu li a{
+    text-decoration: none;
+    color: white;
+}
